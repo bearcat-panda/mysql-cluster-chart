@@ -1,3 +1,30 @@
 apiVersion: v1
-entries: {}
-generated: "2024-01-16T16:38:18.5712973+08:00"
+entries:
+  mysql-cluster:
+  - annotations:
+      core-components: mysql, sidecar, heartbeat
+      dependent-components: exporter
+      version: "8.0"
+    apiVersion: v1
+    appVersion: 8.0.28
+    created: "2024-01-17T17:52:27.7861336+08:00"
+    description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
+    digest: d237677101ff900a12a4782a7b27969993472de88d3ed754edd62c109717eada
+    home: https://www.mysql.com/
+    icon: file://./icon.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    maintainers:
+    - email: support@beyondcent.com
+      name: bocloud
+      url: http://www.bocloud.com.cn
+    name: mysql-cluster
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://bocloud.com/boc/mysql-cluster-operator.git
+    urls:
+    - mysql-cluster-0.2.0.tgz
+    version: 0.2.0
+generated: "2024-01-17T17:52:27.7769291+08:00"
